@@ -36,6 +36,12 @@ body{
 background-color: #b5d077;
 }
 
+.box.no-hover:hover {
+    background-color:#5d5c5c;
+    cursor: default;
+}
+
+
 #reset-btn{
     background-color: #ecf39e;
     height: 7vmin;
@@ -48,5 +54,46 @@ background-color: #b5d077;
 
 }
 #reset-btn:hover{
-    background-color:#ecf770 ;
+    background-color:#dae83e ;
+}
+
+#new-btn{
+     background-color: #b386f2a2;
+    height: 7vmin;
+    width: 18vmin;
+    font-size: 2.5vmin;
+    border-radius: 1rem;
+    color:#132a13 ;
+    border: none;
+    font-weight: bold;
+    margin-top: 3%;
+
+}
+
+#new-btn:hover{
+    background-color:#b386f2;
+}
+
+
+
+
+#msg{
+    color: #a9eb6e;
+    font-size: 5vmin;
+    
+
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
 }
